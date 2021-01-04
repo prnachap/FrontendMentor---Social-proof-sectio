@@ -31,7 +31,9 @@ body {
   font-family: "Spartan", sans-serif;
   font-size: 1.5rem;
   /* text-align: center; */
-  
+background-image: url("./images/bg-pattern-top-desktop.svg"),url("./images/bg-pattern-bottom-desktop.svg");
+background-repeat: no-repeat,no-repeat;
+background-position: top left,bottom right;
   margin-top: 8rem;
 }
 
@@ -177,6 +179,9 @@ main {
 } 
 /* media queries */
 @media screen and (max-width:90rem){
+    body{
+        background-image: url("./images/bg-pattern-top-mobile.svg"),url("./images/bg-pattern-bottom-mobile.svg");
+    }
     main{
         max-width: 80rem;
     }
